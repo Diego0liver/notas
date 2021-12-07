@@ -1,0 +1,115 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+#tx{
+    padding: 5px;
+    font-size: 35px;
+    
+}
+
+
+
+#Lista{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    display:block;
+    font-size: 30px;
+    background-color: rgb(54, 54, 54);
+    width:450px;
+    height:950px;
+    padding: 0px;
+    margin-top: 250px;
+    
+    border-radius: 15px;
+    
+    
+ 
+  
+}
+
+#Lista1{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    display:block;
+    font-size: 30px;
+    background-color: rgb(54, 54, 54);
+    width:450px;
+    height: 950px;
+    padding: 0px;
+    margin-top:  -980px;
+    float: left;
+    margin-left: 500px;
+    border-radius: 15px;
+    
+    
+ 
+  
+}
+li{
+    
+   
+    width: 120px;
+    color: rgb(255, 255, 255);
+   font-size: 60px;
+   margin: 1px;
+ 
+   
+   
+   
+}
+
+
+
+#titulo{
+    font-size: 70px;
+    color: rgb(68, 58, 133);
+    text-align: center;
+margin-top: 120px;
+   
+}
+
+
+
+
+
+
+    
+    
+
+
+
+#sub{
+    font-size: 60px;
+    background-color: rgba(255, 255, 0, 0.137);
+    border-radius: 20px;
+    padding: 15px;
+   
+}
+
+
+#todasContas{
+    font-size: 60px;
+    background-color: rgba(255, 255, 0, 0.137);
+    border-radius: 20px;
+    padding: 15px;
+}
+#bt{
+    
+    font-size: 55px;
+    margin-left: 500px;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: 'Oswald', sans-serif
+}
+#bt:hover{
+   border-color:  rgba(255, 251, 7, 0.349);}
+
+   #bt2{
+       font-size: 55px;
+  padding: 20px;
+      margin: 25px;
+      border-radius: 25px;
+      font-family: 'Oswald', sans-serif
+   }

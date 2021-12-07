@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <!-- <meta name= viewport content= width-device-width initial-scale=1.0> -->
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./content.css">
+        <title>Contas de casa</title>
+    </head>
+    <body>
+       
+    
+      
+            <div id="titulo">
+                Minhas contas
+            </div>
+    
+    
+            <ul id="Lista"><div id="tx">Contas</div><hr>
+                <li>Sx</li><hr>
+                <li>Santander</li><hr>
+                <li>c6</li><hr>
+                <li>Calular</li><hr>
+                <li>Casa</li><hr>
+                <li>Carro</li><hr>
+                <li id="todasContas">Total</li>
+            </ul>
+            <ul   id="Lista1" ><div id="tx">Valor</div><hr>
+                <li id="sx" class="conta"></li><hr>
+                <li id="snt" class="conta"></li><hr>
+                <li id="c6" class="conta"></li><hr>
+                <li id="cll" class="conta"></li><hr>
+                <li id="casa" class="conta"></li><hr>
+                <li id="car" class="conta"></li><hr>
+                <li id="sub" class="conta"></li>
+
+            </ul>
+          
+            
+
+            <button type="button" id="bt2">Editar</button>
+            <a  href="./calculo.html"><button type="button" id="bt">Contas individuas</button></a><br>
+       
+        
+    
+                
+     
+     
+     
+            
+        </div>
+        
+           
+           
+          
+            <ul id="modal-form">
+                <button onclick="calcular(), window.location.reload()" id="fecha">Salvar</button>
+                <button onclick="window.location.reload()" id="fecha">Volta</button><br>
+
+                
+             
+                
+                <li>Sx <input type="number"  class="modal-field" id="sx0"></li>
+                <li> Santander <input type="number" class="modal-field" id="stnd"></li>
+                <li> c6 <input type="number" class="modal-field" id="c60" ></li>
+                <li> Calular<input type="number" class="modal-field" id="cll0" ></li>
+                <li> Casa<input type="number" class="modal-field" id="casa0"></li>
+                <li> Carro<input type="number" class="modal-field" id="car0" ></li>
+               
+                
+            </ul>
+      
+     
+          
+        
+        <script type="text/javascript" src="./tabela.js"></script>
+        <script type="text/javascript" src="./backand.js"></script>
+        
+        </body>
+    </html>
