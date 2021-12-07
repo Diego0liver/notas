@@ -61,7 +61,7 @@ function calcular(){
     let subTotal = ( sx + santander + c6bank + celular + home + carro); 
     
    
-    localStorage.setItem("contas", subTotal)
+    localStorage.setItem("contas", subTotal.toFixed(2).replace(".", ","))
     localStorage.setItem("sx7", sx)
     localStorage.setItem("std7", santander)
     localStorage.setItem("cll7", celular)
