@@ -84,8 +84,7 @@ margin-top: 120px;
     background-color: rgba(255, 255, 0, 0.137);
     border-radius: 20px;
     padding: 15px;
-    width: 200px;
-   
+   width: 200px;
 }
 
 
@@ -115,3 +114,9 @@ margin-top: 120px;
       border-radius: 25px;
       font-family: 'Oswald', sans-serif
    }
+input[type="checkbox"]{
+    height: 60px;
+    width: 60px;
+    margin: 25px;
+   
+}
